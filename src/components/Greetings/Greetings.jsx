@@ -1,7 +1,7 @@
-import React from "react";
+import s from "./style.module.css";
 
 const Greetings = () => {
-  return <div>Im the greeting</div>;
+  return <p className={s.box}>Im the greeting</p>;
 };
 
 export default Greetings;
