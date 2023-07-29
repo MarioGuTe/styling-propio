@@ -1,7 +1,7 @@
 import React from "react";
 
 const Car = () => {
-  return <div>Im the Car</div>;
+  return <p className="box">Im the Car</p>;
 };
 
 export default Car;
